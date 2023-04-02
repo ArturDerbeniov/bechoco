@@ -1,0 +1,973 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="description" content="" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Oswald&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/main.min.css" />
+</head>
+<body>
+	<div class="body-inner">
+
+		<header class="headerMain container-fluid">
+	<div class="container-fluid-inner">
+		<div class="wrapperDefault">
+				<div class="row headerMain-inner">
+					<div class="col col-3 col-lg-auto">
+						<a href="" class="headerMain-logo" title="">
+							<img src="img/logo.svg" alt="" width="225" height="54" />
+						</a>
+					</div>
+					<div class="col col-2 col-lg-7 col-xl-8 menuMobile-wrapper">						
+						<div class="row">										
+							<div class="col col-12 col-lg-12 headerMain-menu">
+								<ul class="headerMain-menu-list">
+									<li><a href="">О компании</a></li>
+									<li><a href="">Точки продаж</a></li>
+									<li><a href="">Контакты</a></li>
+									<li><a href="">Сотрудничество</a></li>
+									<li>
+										<a href="" class="btn-catalog btn btn-brown active">
+											<span class="btn-txt">Каталог</span>
+										</a>
+									</li>
+								</ul>
+							</div>										
+						</div>
+					</div>
+					<div class="col col-4 col-lg-auto headerMain-misc">
+						<div class="headerMain-misc-inner">
+							<div class="headerMain-misc-cart">
+								<a href="" class="headerMain-ico headerMain-ico-cart">
+									<svg class="icon">
+										<use xlink:href="img/sprite.svg#cart"></use>
+									</svg>
+									<span class="headerMain-ico-cart-items">
+										<span class="kolvo">10</span>
+										<svg class="icon">
+											<use xlink:href="img/sprite.svg#drop"></use>
+										</svg>
+									</span>
+								</a>
+							</div>
+							<div class="headerMain-misc-heart">
+								<a href="" class="headerMain-ico">
+									<svg class="icon">
+										<use xlink:href="img/sprite.svg#heart"></use>
+									</svg>
+								</a>
+							</div>
+							<div class="headerMain-misc-user">
+								<span class="headerMain-ico">
+									<svg class="icon">
+										<use xlink:href="img/sprite.svg#user"></use>
+									</svg>
+								</span>
+							</div>
+							<div class="barsShowMainMenu d-none">
+								<svg class="icon">
+									<use xlink:href="img/sprite.svg#bars"></use>
+								</svg>
+							</div>
+						</div>
+					</div>
+				</div>
+		</div>
+	</div>
+</header>
+		
+		<!-- 	<article class="news-item">
+		<h2 class="title">Первая новость</h2>
+		<p>Текст первой новости</p>
+	</article>
+	<article class="news-item">
+		<h2 class="title">Вторая новость</h2>
+		<p>Текст второй новости</p>
+	</article>
+	<article class="news-item">
+		<h2 class="title">Третья новость</h2>
+		<p>Текст третьей новости</p>
+	</article>
+ -->
+
+		<section class="container-fluid section section-new">
+			<div class="container-fluid-inner">
+				<div class="wrapperDefault">
+						<div class="row">
+							<div class="col-12 col-lg-6">
+								<picture class="section-new-picture">
+									<source media="(min-width:991px)" srcset="img/temp_1@2.webp 1.5x,  temp_1.webp 1x">
+									<source media="(min-width:320px)" srcset="img/temp_1_mob.webp">
+									<img  alt="" src="img/temp_1.webp">
+								</picture>
+							</div>
+							<div class="col-12 col-lg-6 section-new-asideText">
+								<div class="section-new-asideText-inner">
+									<div class="tag">Новинка!</div>
+									<h1>
+										Драже Папайя <br /> в шоколаде
+									</h1>
+									<div class="intro">
+										<p>тут должно быть описание к этому продукту <br class="d-block d-lg-none d-xl-block" /> для того чтобы заинтересовать клиента <br class="d-block d-lg-none d-xl-block" /> и кратко рассказать о содержимом</p>
+									</div>
+									<a href="" class="btn btn-yellow section-new-more">
+										<span class="btn-txt">Подробнее</span>
+									</a>
+								</div>
+							</div>
+						</div>
+				</div>
+			</div>
+		</section>
+		<section class="container-fluid section section-catsSlick section-gallerySlick">
+			<div class="container-fluid-inner">
+				<div class="wrapperDefault">
+					<div class="section-header">
+						<div class="section-title">
+							Категории
+						</div>
+						<div class="cardsCat-slickArrowsContainer"></div>
+						<a href="" class="btn btn-yellow btn-all"><span class="btn-txt">Вся продукция<span></a>
+					</div>
+					<div class="cards-slickWrapper">
+						<div class="cardsCat-slick">
+							<div class="cardCat">
+								<div class="cardCat-inner">
+									<a href="" class="cardCat-img">
+										<img src="img/temp_9@2.jpg" alt="фрукты в шоколаде" />
+									</a>
+									<div class="cardCat-title">
+										<a href="">фрукты в шоколаде</a>
+									</div>
+								</div>
+							</div>
+							<div class="cardCat">
+								<div class="cardCat-inner">
+									<a href="" class="cardCat-img">
+										<img src="img/temp_10@2.jpg" alt="фрукты в шоколаде" />
+									</a>
+									<div class="cardCat-title">
+										<a href="">фрукты в шоколаде</a>
+									</div>
+								</div>
+							</div>
+							<div class="cardCat">
+								<div class="cardCat-inner">
+									<a href="" class="cardCat-img">
+										<img src="img/temp_11@2.jpg" alt="фрукты в шоколаде" />
+									</a>
+									<div class="cardCat-title">
+										<a href="">фрукты в шоколаде</a>
+									</div>
+								</div>
+							</div>
+							<div class="cardCat">
+								<div class="cardCat-inner">
+									<a href="" class="cardCat-img">
+										<img src="img/temp_9@2.jpg" alt="фрукты в шоколаде" />
+									</a>
+									<div class="cardCat-title">
+										<a href="">фрукты в шоколаде</a>
+									</div>
+								</div>
+							</div>
+							<div class="cardCat">
+								<div class="cardCat-inner">
+									<a href="" class="cardCat-img">
+										<img src="img/temp_9@2.jpg" alt="фрукты в шоколаде" />
+									</a>
+									<div class="cardCat-title">
+										<a href="">фрукты в шоколаде</a>
+									</div>
+								</div>
+							</div>
+							<div class="cardCat">
+								<div class="cardCat-inner">
+									<a href="" class="cardCat-img">
+										<img src="img/temp_10@2.jpg" alt="фрукты в шоколаде" />
+									</a>
+									<div class="cardCat-title">
+										<a href="">фрукты в шоколаде</a>
+									</div>
+								</div>
+							</div>
+							<div class="cardCat">
+								<div class="cardCat-inner">
+									<a href="" class="cardCat-img">
+										<img src="img/temp_11@2.jpg" alt="фрукты в шоколаде" />
+									</a>
+									<div class="cardCat-title">
+										<a href="">фрукты в шоколаде</a>
+									</div>
+								</div>
+							</div>
+							<div class="cardCat">
+								<div class="cardCat-inner">
+									<a href="" class="cardCat-img">
+										<img src="img/temp_9@2.jpg" alt="фрукты в шоколаде" />
+									</a>
+									<div class="cardCat-title">
+										<a href="">фрукты в шоколаде</a>
+									</div>
+								</div>
+							</div>
+							<div class="cardCat">
+								<div class="cardCat-inner">
+									<a href="" class="cardCat-img">
+										<img src="img/temp_10@2.jpg" alt="фрукты в шоколаде" />
+									</a>
+									<div class="cardCat-title">
+										<a href="">фрукты в шоколаде</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container-fluid section section-tiles">
+			<div class="container-fluid-inner">
+				<div class="wrapperDefault">
+					<div class="section-title">
+						Порадуйте своих близких
+					</div>
+					<div class="row gutters-10">
+						<div class="col-12 col-md-6 section-tiles-col">
+							<div class="section-tiles-oneTile">
+								<div class="section-tiles-oneTile-title">
+									Шоколадное сердце
+								</div>
+								<div class="section-tiles-oneTile-intro">
+									тут должно быть описание к этому продукту для того чтобы заинтересовать клиента и кратко рассказать о содержимом
+								</div>
+								<a href="" class="section-tiles-oneTile-buy btn btn-yellow">
+									<span class="btn-txt">Хочу!</span>
+								</a>
+								<div class="section-tiles-oneTile-img">
+									<img src="img/temp_2@2.webp" alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 section-tiles-col">
+							<div class="section-tiles-oneTile">
+								<div class="section-tiles-oneTile-title">
+									Шоколадное сердце
+								</div>
+								<div class="section-tiles-oneTile-intro">
+									тут должно быть описание к этому продукту для того чтобы заинтересовать клиента и кратко рассказать о содержимом
+								</div>
+								<a href="" class="section-tiles-oneTile-buy btn btn-yellow">
+									<span class="btn-txt">Хочу!</span>
+								</a>
+								<div class="section-tiles-oneTile-img">
+									<img src="img/temp_3@2.webp" alt="" />
+								</div>								
+							</div>
+						</div>
+						<div class="col-12 col-md-6 section-tiles-col">
+							<div class="section-tiles-oneTile">
+								<div class="section-tiles-oneTile-title">
+									Шоколадное сердце
+								</div>
+								<div class="section-tiles-oneTile-intro">
+									тут должно быть описание к этому продукту для того чтобы заинтересовать клиента и кратко рассказать о содержимом
+								</div>
+								<a href="" class="section-tiles-oneTile-buy btn btn-yellow">
+									<span class="btn-txt">Хочу!</span>
+								</a>
+								<div class="section-tiles-oneTile-img">
+									<img src="img/temp_2@2.webp" alt="" />
+								</div>
+							</div>
+						</div>
+						<div class="col-12 col-md-6 section-tiles-col">
+							<div class="section-tiles-oneTile">
+								<div class="section-tiles-oneTile-title">
+									Шоколадное сердце
+								</div>
+								<div class="section-tiles-oneTile-intro">
+									тут должно быть описание к этому продукту для того чтобы заинтересовать клиента и кратко рассказать о содержимом
+								</div>
+								<a href="" class="section-tiles-oneTile-buy btn btn-yellow">
+									<span class="btn-txt">Хочу!</span>
+								</a>
+								<div class="section-tiles-oneTile-img">
+									<img src="img/temp_3@2.webp" alt="" />
+								</div>								
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container-fluid section section-bestsellers section-gallerySlick">
+			<div class="container-fluid-inner">
+				<div class="wrapperDefault">
+					<div class="section-header">
+						<div class="section-title">
+							Бестселлеры
+						</div>
+						<div class="cards-slickArrowsContainer"></div>
+					</div>
+					<div class="cards-slickWrapper">
+						<div class="cards-slick">
+							<div class="card">
+								<div class="card-inner">
+									<a href="" class="card-img">
+										<picture class="">
+											<source media="(min-width:768px)" srcset="img/temp_8@2.webp">
+											<source media="(min-width:320px)" srcset="img/temp_8_mob.webp">
+											<img  alt="Апельсиновые цукаты в молочном шоколаде" src="img/temp_8.webp">
+										</picture>
+									</a>
+									<div class="card-title">
+										<a href="">Апельсиновые цукаты в молочном шоколаде</a>
+									</div>
+									<div class="card-footer">
+										<div class="card-price">
+											500₽ — 30г
+										</div>
+										<div class="card-footer-inner">
+											<div class="quantity-pnl">
+												<div class=" quantity-pnl-less">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+												<div class="quantity-pnl-result">
+													30г
+												</div>
+												<div class="quantity-pnl-more">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+											</div>
+											<div class="card-cart">
+												<svg class="icon">
+													<use xlink:href="img/sprite.svg#cart"></use>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="card-fav">
+										<svg class="icon">
+											<use xlink:href="img/sprite.svg#heart"></use>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-inner">
+									<a href="" class="card-img">
+										<picture class="">
+											<source media="(min-width:768px)" srcset="img/temp_5@2.webp">
+											<source media="(min-width:320px)" srcset="img/temp_5_mob.webp">
+											<img  alt="Апельсиновые цукаты в молочном шоколаде" src="img/temp_5.webp">
+										</picture>
+									</a>
+									<div class="card-title">
+										<a href="">Апельсиновые цукаты в молочном шоколаде</a>
+									</div>
+									<div class="card-footer">
+										<div class="card-price">
+											500₽ — 30г
+										</div>
+										<div class="card-footer-inner">
+											<div class="quantity-pnl">
+												<div class=" quantity-pnl-less">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+												<div class="quantity-pnl-result">
+													30г
+												</div>
+												<div class="quantity-pnl-more">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+											</div>
+											<div class="card-cart">
+												<svg class="icon">
+													<use xlink:href="img/sprite.svg#cart"></use>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="card-fav">
+										<svg class="icon">
+											<use xlink:href="img/sprite.svg#heart"></use>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-inner">
+									<a href="" class="card-img">
+										<picture class="">
+											<source media="(min-width:768px)" srcset="img/temp_6@2.webp">
+											<source media="(min-width:320px)" srcset="img/temp_6_mob.webp">
+											<img  alt="Апельсиновые цукаты в молочном шоколаде" src="img/temp_6.webp">
+										</picture>
+									</a>
+									<div class="card-title">
+										<a href="">Апельсиновые цукаты в молочном шоколаде</a>
+									</div>
+									<div class="card-footer">
+										<div class="card-price">
+											500₽ — 30г
+										</div>
+										<div class="card-footer-inner">
+											<div class="quantity-pnl">
+												<div class=" quantity-pnl-less">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+												<div class="quantity-pnl-result">
+													30г
+												</div>
+												<div class="quantity-pnl-more">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+											</div>
+											<div class="card-cart">
+												<svg class="icon">
+													<use xlink:href="img/sprite.svg#cart"></use>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="card-fav">
+										<svg class="icon">
+											<use xlink:href="img/sprite.svg#heart"></use>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-inner">
+									<a href="" class="card-img">
+										<picture class="">
+											<source media="(min-width:768px)" srcset="img/temp_7@2.webp">
+											<source media="(min-width:320px)" srcset="img/temp_7_mob.webp">
+											<img  alt="Апельсиновые цукаты в молочном шоколаде" src="img/temp_7.webp">
+										</picture>
+									</a>
+									<div class="card-title">
+										<a href="">Апельсиновые цукаты в молочном шоколаде</a>
+									</div>
+									<div class="card-footer">
+										<div class="card-price">
+											500₽ — 30г
+										</div>
+										<div class="card-footer-inner">
+											<div class="quantity-pnl">
+												<div class=" quantity-pnl-less">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+												<div class="quantity-pnl-result">
+													30г
+												</div>
+												<div class="quantity-pnl-more">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+											</div>
+											<div class="card-cart">
+												<svg class="icon">
+													<use xlink:href="img/sprite.svg#cart"></use>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="card-fav">
+										<svg class="icon">
+											<use xlink:href="img/sprite.svg#heart"></use>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-inner">
+									<a href="" class="card-img">
+										<picture class="">
+											<source media="(min-width:768px)" srcset="img/temp_8@2.webp">
+											<source media="(min-width:320px)" srcset="img/temp_8_mob.webp">
+											<img  alt="Апельсиновые цукаты в молочном шоколаде" src="img/temp_8.webp">
+										</picture>
+									</a>
+									<div class="card-title">
+										<a href="">Апельсиновые цукаты в молочном шоколаде</a>
+									</div>
+									<div class="card-footer">
+										<div class="card-price">
+											500₽ — 30г
+										</div>
+										<div class="card-footer-inner">
+											<div class="quantity-pnl">
+												<div class=" quantity-pnl-less">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+												<div class="quantity-pnl-result">
+													30г
+												</div>
+												<div class="quantity-pnl-more">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+											</div>
+											<div class="card-cart">
+												<svg class="icon">
+													<use xlink:href="img/sprite.svg#cart"></use>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="card-fav">
+										<svg class="icon">
+											<use xlink:href="img/sprite.svg#heart"></use>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-inner">
+									<a href="" class="card-img">
+										<picture class="">
+											<source media="(min-width:768px)" srcset="img/temp_5@2.webp">
+											<source media="(min-width:320px)" srcset="img/temp_5_mob.webp">
+											<img  alt="Апельсиновые цукаты в молочном шоколаде" src="img/temp_5.webp">
+										</picture>
+									</a>
+									<div class="card-title">
+										<a href="">Апельсиновые цукаты в молочном шоколаде</a>
+									</div>
+									<div class="card-footer">
+										<div class="card-price">
+											500₽ — 30г
+										</div>
+										<div class="card-footer-inner">
+											<div class="quantity-pnl">
+												<div class=" quantity-pnl-less">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+												<div class="quantity-pnl-result">
+													30г
+												</div>
+												<div class="quantity-pnl-more">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+											</div>
+											<div class="card-cart">
+												<svg class="icon">
+													<use xlink:href="img/sprite.svg#cart"></use>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="card-fav">
+										<svg class="icon">
+											<use xlink:href="img/sprite.svg#heart"></use>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-inner">
+									<a href="" class="card-img">
+										<picture class="">
+											<source media="(min-width:768px)" srcset="img/temp_6@2.webp">
+											<source media="(min-width:320px)" srcset="img/temp_6_mob.webp">
+											<img  alt="Апельсиновые цукаты в молочном шоколаде" src="img/temp_6.webp">
+										</picture>
+									</a>
+									<div class="card-title">
+										<a href="">Апельсиновые цукаты в молочном шоколаде</a>
+									</div>
+									<div class="card-footer">
+										<div class="card-price">
+											500₽ — 30г
+										</div>
+										<div class="card-footer-inner">
+											<div class="quantity-pnl">
+												<div class=" quantity-pnl-less">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+												<div class="quantity-pnl-result">
+													30г
+												</div>
+												<div class="quantity-pnl-more">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+											</div>
+											<div class="card-cart">
+												<svg class="icon">
+													<use xlink:href="img/sprite.svg#cart"></use>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="card-fav">
+										<svg class="icon">
+											<use xlink:href="img/sprite.svg#heart"></use>
+										</svg>
+									</div>
+								</div>
+							</div>
+							<div class="card">
+								<div class="card-inner">
+									<a href="" class="card-img">
+										<picture class="">
+											<source media="(min-width:768px)" srcset="img/temp_7@2.webp">
+											<source media="(min-width:320px)" srcset="img/temp_7_mob.webp">
+											<img  alt="Апельсиновые цукаты в молочном шоколаде" src="img/temp_7.webp">
+										</picture>
+									</a>
+									<div class="card-title">
+										<a href="">Апельсиновые цукаты в молочном шоколаде</a>
+									</div>
+									<div class="card-footer">
+										<div class="card-price">
+											500₽ — 30г
+										</div>
+										<div class="card-footer-inner">
+											<div class="quantity-pnl">
+												<div class=" quantity-pnl-less">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+												<div class="quantity-pnl-result">
+													30г
+												</div>
+												<div class="quantity-pnl-more">
+													<svg class="icon icon-shevron">
+														<use xlink:href="img/sprite.svg#shevronL"></use>
+													</svg>	
+												</div>
+											</div>
+											<div class="card-cart">
+												<svg class="icon">
+													<use xlink:href="img/sprite.svg#cart"></use>
+												</svg>
+											</div>
+										</div>
+									</div>
+									<div class="card-fav">
+										<svg class="icon">
+											<use xlink:href="img/sprite.svg#heart"></use>
+										</svg>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="container-fluid section section-production">
+			<div class="container-fluid-inner">
+				<div class="wrapperDefault">
+						<div class="row gutters-0">
+							<div class="col-12 col-lg-6">
+								<picture class="section-production-picture">
+									<source media="(min-width:991px)" srcset="img/production-lg@2.webp 1.5x,  img/production-lg.webp 1x">
+									<source media="(min-width:320px)" srcset="img/production-mob.webp">
+									<img  alt="" src="img/production-lg.webp">
+								</picture>
+							</div>
+							<div class="col-12 col-lg-6 section-production-asideText">
+								<div class="section-production-asideText-inner">
+									<div class="pretitle">репортаж с шоколадной фабрики</div>
+									<div class="h1">
+										узнайте больше <br> о нашем производстве
+									</div>									
+									<a href="" class="btn btn-yellow section-production-more">
+										<span class="btn-txt">Читать</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section class="container-fluid section section-blockquote">
+			<div class="container-fluid-inner">
+				<div class="wrapperDefault">
+						<blockquote>
+							&laquo;Наш бизнес построен на&nbsp;радикальной идее о&nbsp;том, что качество мирового класса, удивительные сотрудники, звездное обслуживание клиентов и&nbsp;устойчивая бизнес-практика&nbsp;&mdash; это&nbsp;то, что действительно волнует клиентов&raquo;
+						</blockquote>
+						<cite>
+							<img src="img/beloglazov.webp" width="50" alt="Глеб Белоглазов" />
+							<div class="h4">Глеб Белоглазов</div>
+							<div class="h5 c-brown-50">основатель BeChoco</div> 
+						</cite>
+					</div>
+				</div>
+		</section>
+		<section class="container-fluid section section-cooperation">
+			<div class="container-fluid-inner">
+				<div class="wrapperDefault">
+						<div class="row gutters-0 section-cooperation-row">
+							<div class="col-12 col-lg-6">
+								<picture class="section-cooperation-picture">
+									<source media="(min-width:991px)" srcset="img/cooperation-lg@2.webp 1.5x,  img/cooperation-lg.webp 1x">
+									<source media="(min-width:320px)" srcset="img/cooperation-mob.webp">
+									<img  alt="" src="img/cooperation-lg.webp">
+								</picture>
+							</div>
+							<div class="col-12 col-lg-6 section-cooperation-asideText">
+								<div class="section-cooperation-asideText-inner">
+									<h1>
+										начни сотрудничество <br> с bechoco
+									</h1>
+									<div class="intro">тут будет какой-то краткий, мотивирующий текст</div>
+									<a href="" class="btn btn-yellow section-cooperation-more">
+										<span class="btn-txt">Подробнее</span>
+									</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<section class="container-fluid section section-subscription">
+			<div class="container-fluid-inner">
+				<div class="wrapperDefault">
+						<div class="row gutters-0 section-subscription-row">
+							<div class="col-12 col-lg-6">
+								<div class="section-subscription-title">
+									подпишись <br class="d-none d-lg-block" /> на новинки!
+								</div>
+								<div class="section-subscription-intro">
+									заполните данный и будте в курсе <br>  всех новинок от Bechoco!
+								</div>
+							</div>
+							<div class="col-12 col-lg-6">
+								<div class="section-subscription-form">
+									<form class="form vld-form" data-btnLinked=".btn-subscribe">
+										<div class="form-inner">
+											<div class="form-item form-item-email">
+												<input class="form-item-input vld-field" type="email" placeholder=" " pattern="\S+@\S+\.\w+" data-required='true' />
+												<div class="placeholder">
+													Электронная почта
+												</div>
+											</div>
+											<div class="form-item form-item-btn">
+												<button class="btn btn-brown disabled btn-subscribe"><span class="btn-txt">Subscribe</span></button>
+											</div>
+										</div>
+										<div class="form-check">
+											<div class="form-check__inner ">
+													<input type="checkbox" value="1" name="" data-required="true" class="vld-field">
+													<span class="form-check-box">
+													<svg class="icon">
+														<use xlink:href="img/sprite.svg#check"></use>
+													</svg>
+													</span>
+													<div class="form-check-content">
+														<span class="form-check-txt">
+														Я согласен с политикой конфиденциальности и <br> даю согласие на обработку персональных данных
+														</span>
+													</div>
+											</div>
+										</div>
+									</form>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>			
+							
+		<footer class="footerMain container-fluid">
+	<div class="container-fluid-inner">
+		<div class="wrapperDefault">
+				<div class="footerMain-inner">
+					<div class="footerMain-logo">						
+						<img src="img/logo_footer.svg" alt="BeChoco" width="123" />						
+					</div>
+					<div class="footerMain-contacts">
+						<a href="tel:+79122670000"><span class="c-brown">+7 (912) 267-00-00</span></a>
+						<a href="mailto:info@bechoco.ru"><span class="c-brown">info@bechoco.ru</span></a>
+					</div>
+					<div class="footerMain-adres">
+						<p>
+							<span class="d-block fs-12 c-brown-50 mb-1">магазин</span>
+							Екатеренбург, ул. 8 Марта, 46 Фуд-корт «EStory»
+						</p>						
+						<p>
+							<span class="d-block fs-12 c-brown-50 mb-1">производство</span>
+							Екатеренбург, Режевской тракт 15 км, 5а
+						</p>
+					</div>
+					<div class="footerMain-menu">
+						<div class="row">
+							<div class="col-6 col-sm-4 footerMain-menu-biz">
+								<div class="footerMain-menu-title">бизнесу</div>
+								<ul class="footerMain-list">
+									<li><a href="">контакты</a></li>
+									<li><a href="">оптом</a></li>
+									<li><a href="">Партнерство</a></li>
+									<li><a href="">Набор персонала</a></li>
+								</ul>
+							</div>
+							<div class="col-6 col-sm-4 footerMain-menu-clients">
+								<div class="footerMain-menu-title">клиентам</div>
+								<ul class="footerMain-list">
+									<li><a href="">Пресса</a></li>
+									<li><a href="">Доставка</a></li>
+									<li><a href="">Точки продаж</a></li>
+								</ul>
+							</div>
+							<div class="col-12 col-sm-4 footerMain-menu-socials">
+								<div class="footerMain-menu-title">соцсети</div>
+								<ul class="footerMain-list">
+									<li><a href="">instagram*</a></li>
+									<li><a href="">telegram</a></li>
+									<li><a href="">youtube</a></li>
+									<li><a href="">tiktok</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="footerMain-footnote">
+						* instagram признан экстремистским и запрещен в России
+					</div>
+				</div>
+		</div>
+	</div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"></script>	
+
+<script difer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+
+<link href="css/slick.css" rel="stylesheet" />
+<script type="text/javascript" src="js/slick1.8.1.min.js"></script>
+
+<script src="js/main.js"></script>
+	</div>
+	
+	<div class="popup popup-menuMain">
+		<div class="popup-inner">
+			<div class="popup-header">
+				<div class="popup-title">
+					Меню
+				</div>
+				<div class="popup-close">
+					закрыть
+				</div>
+			</div>
+			<div class="popup-body">
+				<a href="" class="btn btn-yellow active">
+					<span class="btn-txt">вход или регистрация</span>
+				</a>
+				<ul class="menuList">
+					<li class="menuList-item">
+						<a href="">Контакты</a>
+					</li>
+					<li class="menuList-item">
+						<a href="">О компании</a>
+					</li>
+					<li class="menuList-item">
+						<a href="">Точки продаж</a>
+					</li>
+					<li class="menuList-item">
+						<a href="">Сотрудничество</a>
+					</li>
+				</ul>
+				<a href="" class="btn btn-camelia">
+					<span class="btn-txt">Вся продукция</span>
+				</a>
+				<div class="popup-catalogWrap">
+					<ul class="popup-catalogList">
+						<li>
+							<a href="" class="popup-catalogList-lnk">
+								<div class="popup-catalogList-imgWrap">
+									<img src="img/temp_5@2.webp" alt="">
+								</div>
+								<div class="popup-catalogList-lnkTxt">
+									фрукты в шоколаде
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" class="popup-catalogList-lnk">
+								<div class="popup-catalogList-imgWrap">
+									<img src="img/temp_5@2.webp" alt="">
+								</div>
+								<div class="popup-catalogList-lnkTxt">
+									фрукты в шоколаде
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" class="popup-catalogList-lnk">
+								<div class="popup-catalogList-imgWrap">
+									<img src="img/temp_5@2.webp" alt="">
+								</div>
+								<div class="popup-catalogList-lnkTxt">
+									фрукты в шоколаде
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" class="popup-catalogList-lnk">
+								<div class="popup-catalogList-imgWrap">
+									<img src="img/temp_5@2.webp" alt="">
+								</div>
+								<div class="popup-catalogList-lnkTxt">
+									фрукты в шоколаде
+								</div>
+							</a>
+						</li>
+						<li>
+							<a href="" class="popup-catalogList-lnk">
+								<div class="popup-catalogList-imgWrap">
+									<img src="img/temp_5@2.webp" alt="">
+								</div>
+								<div class="popup-catalogList-lnkTxt">
+									фрукты в шоколаде
+								</div>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
