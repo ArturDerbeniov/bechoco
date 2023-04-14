@@ -34,9 +34,9 @@
 									<li><a href="">Контакты</a></li>
 									<li><a href="">Сотрудничество</a></li>
 									<li>
-										<a href="" class="btn-catalog btn btn-brown active">
+										<span class="btn-catalog btn btn-brown active">
 											<span class="btn-txt">Каталог</span>
-										</a>
+										</span>
 									</li>
 								</ul>
 							</div>										
@@ -45,7 +45,7 @@
 					<div class="col col-4 col-lg-auto headerMain-misc">
 						<div class="headerMain-misc-inner">
 							<div class="headerMain-misc-cart">
-								<a href="" class="headerMain-ico headerMain-ico-cart">
+								<span class="headerMain-ico headerMain-ico-cart headerMain-showCart">
 									<svg class="icon">
 										<use xlink:href="img/sprite.svg#cart"></use>
 									</svg>
@@ -55,7 +55,7 @@
 											<use xlink:href="img/sprite.svg#drop"></use>
 										</svg>
 									</span>
-								</a>
+								</span>
 							</div>
 							<div class="headerMain-misc-heart">
 								<a href="" class="headerMain-ico">
@@ -83,27 +83,13 @@
 	</div>
 </header>
 		
-		<!-- 	<article class="news-item">
-		<h2 class="title">Первая новость</h2>
-		<p>Текст первой новости</p>
-	</article>
-	<article class="news-item">
-		<h2 class="title">Вторая новость</h2>
-		<p>Текст второй новости</p>
-	</article>
-	<article class="news-item">
-		<h2 class="title">Третья новость</h2>
-		<p>Текст третьей новости</p>
-	</article>
- -->
-
 		<section class="container-fluid section section-new">
 			<div class="container-fluid-inner">
 				<div class="wrapperDefault">
 						<div class="row">
 							<div class="col-12 col-lg-6">
 								<picture class="section-new-picture">
-									<source media="(min-width:991px)" srcset="img/temp_1@2.webp 1.5x,  temp_1.webp 1x">
+									<source media="(min-width:960px)" srcset="img/temp_1@2.webp 1.5x,  temp_1.webp 1x">
 									<source media="(min-width:320px)" srcset="img/temp_1_mob.webp">
 									<img  alt="" src="img/temp_1.webp">
 								</picture>
@@ -344,7 +330,7 @@
 													</svg>	
 												</div>
 												<div class="quantity-pnl-result">
-													30г
+													<input class="quantity-pnl-result-input" type="text" value="30г" data-step-size="30" data-step-price="590" />
 												</div>
 												<div class="quantity-pnl-more">
 													<svg class="icon icon-shevron">
@@ -352,18 +338,18 @@
 													</svg>	
 												</div>
 											</div>
-											<div class="card-cart">
+											<button class="card-cart">
 												<svg class="icon">
 													<use xlink:href="img/sprite.svg#cart"></use>
 												</svg>
-											</div>
+											</button>
 										</div>
 									</div>
-									<div class="card-fav">
+									<button class="card-fav">
 										<svg class="icon">
 											<use xlink:href="img/sprite.svg#heart"></use>
 										</svg>
-									</div>
+									</button>
 								</div>
 							</div>
 							<div class="card">
@@ -390,7 +376,7 @@
 													</svg>	
 												</div>
 												<div class="quantity-pnl-result">
-													30г
+													<input class="quantity-pnl-result-input" type="text" value="30г" data-step-size="30" data-step-price="590" />
 												</div>
 												<div class="quantity-pnl-more">
 													<svg class="icon icon-shevron">
@@ -398,18 +384,18 @@
 													</svg>	
 												</div>
 											</div>
-											<div class="card-cart">
+											<button class="card-cart">
 												<svg class="icon">
 													<use xlink:href="img/sprite.svg#cart"></use>
 												</svg>
-											</div>
+											</button>
 										</div>
 									</div>
-									<div class="card-fav">
+									<button class="card-fav">
 										<svg class="icon">
 											<use xlink:href="img/sprite.svg#heart"></use>
 										</svg>
-									</div>
+									</button>
 								</div>
 							</div>
 							<div class="card">
@@ -436,7 +422,7 @@
 													</svg>	
 												</div>
 												<div class="quantity-pnl-result">
-													30г
+													<input class="quantity-pnl-result-input" type="text" value="30г" data-step-size="30" data-step-price="590" />
 												</div>
 												<div class="quantity-pnl-more">
 													<svg class="icon icon-shevron">
@@ -444,18 +430,18 @@
 													</svg>	
 												</div>
 											</div>
-											<div class="card-cart">
+											<button class="card-cart">
 												<svg class="icon">
 													<use xlink:href="img/sprite.svg#cart"></use>
 												</svg>
-											</div>
+											</button>
 										</div>
 									</div>
-									<div class="card-fav">
+									<button class="card-fav">
 										<svg class="icon">
 											<use xlink:href="img/sprite.svg#heart"></use>
 										</svg>
-									</div>
+									</button>
 								</div>
 							</div>
 							<div class="card">
@@ -482,7 +468,7 @@
 													</svg>	
 												</div>
 												<div class="quantity-pnl-result">
-													30г
+													<input class="quantity-pnl-result-input" type="text" value="30г" data-step-size="30" data-step-price="590" />
 												</div>
 												<div class="quantity-pnl-more">
 													<svg class="icon icon-shevron">
@@ -490,18 +476,18 @@
 													</svg>	
 												</div>
 											</div>
-											<div class="card-cart">
+											<button class="card-cart">
 												<svg class="icon">
 													<use xlink:href="img/sprite.svg#cart"></use>
 												</svg>
-											</div>
+											</button>
 										</div>
 									</div>
-									<div class="card-fav">
+									<button class="card-fav">
 										<svg class="icon">
 											<use xlink:href="img/sprite.svg#heart"></use>
 										</svg>
-									</div>
+									</button>
 								</div>
 							</div>
 							<div class="card">
@@ -528,7 +514,7 @@
 													</svg>	
 												</div>
 												<div class="quantity-pnl-result">
-													30г
+													<input class="quantity-pnl-result-input" type="text" value="30г" data-step-size="30" data-step-price="590" />
 												</div>
 												<div class="quantity-pnl-more">
 													<svg class="icon icon-shevron">
@@ -536,18 +522,18 @@
 													</svg>	
 												</div>
 											</div>
-											<div class="card-cart">
+											<button class="card-cart">
 												<svg class="icon">
 													<use xlink:href="img/sprite.svg#cart"></use>
 												</svg>
-											</div>
+											</button>
 										</div>
 									</div>
-									<div class="card-fav">
+									<button class="card-fav">
 										<svg class="icon">
 											<use xlink:href="img/sprite.svg#heart"></use>
 										</svg>
-									</div>
+									</button>
 								</div>
 							</div>
 							<div class="card">
@@ -574,7 +560,7 @@
 													</svg>	
 												</div>
 												<div class="quantity-pnl-result">
-													30г
+													<input class="quantity-pnl-result-input" type="text" value="30г" data-step-size="30" data-step-price="590" />
 												</div>
 												<div class="quantity-pnl-more">
 													<svg class="icon icon-shevron">
@@ -582,18 +568,18 @@
 													</svg>	
 												</div>
 											</div>
-											<div class="card-cart">
+											<button class="card-cart">
 												<svg class="icon">
 													<use xlink:href="img/sprite.svg#cart"></use>
 												</svg>
-											</div>
+											</button>
 										</div>
 									</div>
-									<div class="card-fav">
+									<button class="card-fav">
 										<svg class="icon">
 											<use xlink:href="img/sprite.svg#heart"></use>
 										</svg>
-									</div>
+									</button>
 								</div>
 							</div>
 							<div class="card">
@@ -620,7 +606,7 @@
 													</svg>	
 												</div>
 												<div class="quantity-pnl-result">
-													30г
+													<input class="quantity-pnl-result-input" type="text" value="30г" data-step-size="30" data-step-price="590" />
 												</div>
 												<div class="quantity-pnl-more">
 													<svg class="icon icon-shevron">
@@ -628,18 +614,18 @@
 													</svg>	
 												</div>
 											</div>
-											<div class="card-cart">
+											<button class="card-cart">
 												<svg class="icon">
 													<use xlink:href="img/sprite.svg#cart"></use>
 												</svg>
-											</div>
+											</button>
 										</div>
 									</div>
-									<div class="card-fav">
+									<button class="card-fav">
 										<svg class="icon">
 											<use xlink:href="img/sprite.svg#heart"></use>
 										</svg>
-									</div>
+									</button>
 								</div>
 							</div>
 							<div class="card">
@@ -666,7 +652,7 @@
 													</svg>	
 												</div>
 												<div class="quantity-pnl-result">
-													30г
+													<input class="quantity-pnl-result-input" type="text" value="30г" data-step-size="30" data-step-price="590" />
 												</div>
 												<div class="quantity-pnl-more">
 													<svg class="icon icon-shevron">
@@ -674,18 +660,18 @@
 													</svg>	
 												</div>
 											</div>
-											<div class="card-cart">
+											<button class="card-cart">
 												<svg class="icon">
 													<use xlink:href="img/sprite.svg#cart"></use>
 												</svg>
-											</div>
+											</button>
 										</div>
 									</div>
-									<div class="card-fav">
+									<button class="card-fav">
 										<svg class="icon">
 											<use xlink:href="img/sprite.svg#heart"></use>
 										</svg>
-									</div>
+									</button>
 								</div>
 							</div>
 						</div>
@@ -699,7 +685,7 @@
 						<div class="row gutters-0">
 							<div class="col-12 col-lg-6">
 								<picture class="section-production-picture">
-									<source media="(min-width:991px)" srcset="img/production-lg@2.webp 1.5x,  img/production-lg.webp 1x">
+									<source media="(min-width:960px)" srcset="img/production-lg@2.webp 1.5x,  img/production-lg.webp 1x">
 									<source media="(min-width:320px)" srcset="img/production-mob.webp">
 									<img  alt="" src="img/production-lg.webp">
 								</picture>
@@ -739,7 +725,7 @@
 						<div class="row gutters-0 section-cooperation-row">
 							<div class="col-12 col-lg-6">
 								<picture class="section-cooperation-picture">
-									<source media="(min-width:991px)" srcset="img/cooperation-lg@2.webp 1.5x,  img/cooperation-lg.webp 1x">
+									<source media="(min-width:960px)" srcset="img/cooperation-lg@2.webp 1.5x,  img/cooperation-lg.webp 1x">
 									<source media="(min-width:320px)" srcset="img/cooperation-mob.webp">
 									<img  alt="" src="img/cooperation-lg.webp">
 								</picture>
@@ -782,7 +768,7 @@
 												</div>
 											</div>
 											<div class="form-item form-item-btn">
-												<button class="btn btn-brown disabled btn-subscribe"><span class="btn-txt">Subscribe</span></button>
+												<span class="btn btn-brown disabled btn-subscribe" data-bs-toggle="modal" data-bs-target="#modalRegistr"><span class="btn-txt">Subscribe</span></span>
 											</div>
 										</div>
 										<div class="form-check">
@@ -811,58 +797,73 @@
 		<footer class="footerMain container-fluid">
 	<div class="container-fluid-inner">
 		<div class="wrapperDefault">
-				<div class="footerMain-inner">
-					<div class="footerMain-logo">						
-						<img src="img/logo_footer.svg" alt="BeChoco" width="123" />						
-					</div>
-					<div class="footerMain-contacts">
-						<a href="tel:+79122670000"><span class="c-brown">+7 (912) 267-00-00</span></a>
-						<a href="mailto:info@bechoco.ru"><span class="c-brown">info@bechoco.ru</span></a>
-					</div>
-					<div class="footerMain-adres">
-						<p>
-							<span class="d-block fs-12 c-brown-50 mb-1">магазин</span>
-							Екатеренбург, ул. 8 Марта, 46 Фуд-корт «EStory»
-						</p>						
-						<p>
-							<span class="d-block fs-12 c-brown-50 mb-1">производство</span>
-							Екатеренбург, Режевской тракт 15 км, 5а
-						</p>
-					</div>
-					<div class="footerMain-menu">
-						<div class="row">
-							<div class="col-6 col-sm-4 footerMain-menu-biz">
-								<div class="footerMain-menu-title">бизнесу</div>
-								<ul class="footerMain-list">
-									<li><a href="">контакты</a></li>
-									<li><a href="">оптом</a></li>
-									<li><a href="">Партнерство</a></li>
-									<li><a href="">Набор персонала</a></li>
-								</ul>
-							</div>
-							<div class="col-6 col-sm-4 footerMain-menu-clients">
-								<div class="footerMain-menu-title">клиентам</div>
-								<ul class="footerMain-list">
-									<li><a href="">Пресса</a></li>
-									<li><a href="">Доставка</a></li>
-									<li><a href="">Точки продаж</a></li>
-								</ul>
-							</div>
-							<div class="col-12 col-sm-4 footerMain-menu-socials">
-								<div class="footerMain-menu-title">соцсети</div>
-								<ul class="footerMain-list">
-									<li><a href="">instagram*</a></li>
-									<li><a href="">telegram</a></li>
-									<li><a href="">youtube</a></li>
-									<li><a href="">tiktok</a></li>
-								</ul>
-							</div>
+			<div class="footerMain-inner">
+				<div class="footerMain-logo">						
+					<img src="img/logo_footer.svg" alt="BeChoco" width="123" />						
+				</div>
+				<div class="footerMain-contacts">
+					<a href="tel:+79122670000"><span class="c-brown">+7 (912) 267-00-00</span></a>
+					<a href="mailto:info@bechoco.ru"><span class="c-brown">info@bechoco.ru</span></a>
+				</div>
+				<div class="footerMain-adres">
+					<p class="uppercase">
+						<span class="d-block fs-12 c-brown-50 mb-1">магазин</span>
+						Екатеренбург, ул. 8 Марта, 46 Фуд-корт «EStory»
+					</p>						
+					<p class="uppercase">
+						<span class="d-block fs-12 c-brown-50 mb-1">производство</span>
+						Екатеренбург, Режевской тракт 15 км, 5а
+					</p>
+				</div>
+				<div class="footerMain-menu">
+					<div class="row">
+						<div class="col-6 col-sm-4 footerMain-menu-biz">
+							<div class="footerMain-menu-title">бизнесу</div>
+							<ul class="footerMain-list">
+								<li><a href="">контакты</a></li>
+								<li><a href="">оптом</a></li>
+								<li><a href="">Партнерство</a></li>
+								<li><a href="">Набор персонала</a></li>
+							</ul>
+						</div>
+						<div class="col-6 col-sm-4 footerMain-menu-clients">
+							<div class="footerMain-menu-title">клиентам</div>
+							<ul class="footerMain-list">
+								<li><a href="">Пресса</a></li>
+								<li><a href="">Доставка</a></li>
+								<li><a href="">Точки продаж</a></li>
+							</ul>
+						</div>
+						<div class="col-12 col-sm-4 footerMain-menu-socials">
+							<div class="footerMain-menu-title">соцсети</div>
+							<ul class="footerMain-list">
+								<li><a href="">instagram*</a></li>
+								<li><a href="">telegram</a></li>
+								<li><a href="">youtube</a></li>
+								<li><a href="">tiktok</a></li>
+							</ul>
 						</div>
 					</div>
-					<div class="footerMain-footnote">
-						* instagram признан экстремистским и запрещен в России
+				</div>
+				<div class="footerMain-footnote">
+					* instagram признан экстремистским и запрещен в России
+				</div>
+			</div>
+				
+		</div>
+		<div class="footerMain-bottom">
+			<div class="wrapperDefault">
+				<div class="footerMain-bottom-row">
+					<div class="footerMain-bottom-col">
+						© Bechoco 2023
+					</div>
+					<div class="footerMain-bottom-col">
+						<a href="">политика конфиденциальности</a>
+						<br />
+						<a href="">обработка персональных данных</a>
 					</div>
 				</div>
+			</div>
 		</div>
 	</div>
 </footer>
@@ -881,93 +882,298 @@
 <script src="js/main.js"></script>
 	</div>
 	
-	<div class="popup popup-menuMain">
-		<div class="popup-inner">
-			<div class="popup-header">
-				<div class="popup-title">
-					Меню
-				</div>
-				<div class="popup-close">
-					закрыть
-				</div>
+	<div class="popup popup-menuMain" aria-hidden="true">
+	<div class="popup-inner" role="dialog" aria-modal="true">
+		<div class="popup-header">
+			<div class="popup-title">
+				Меню
 			</div>
-			<div class="popup-body">
-				<a href="" class="btn btn-yellow active">
-					<span class="btn-txt">вход или регистрация</span>
-				</a>
-				<ul class="menuList">
-					<li class="menuList-item">
-						<a href="">Контакты</a>
+			<div class="popup-close">
+				закрыть
+			</div>
+		</div>
+		<div class="popup-body">
+			<a href="" class="btn btn-yellow active">
+				<span class="btn-txt">вход или регистрация</span>
+			</a>
+			<ul class="menuList">
+				<li class="menuList-item">
+					<a href="">Контакты</a>
+				</li>
+				<li class="menuList-item">
+					<a href="">О компании</a>
+				</li>
+				<li class="menuList-item">
+					<a href="">Точки продаж</a>
+				</li>
+				<li class="menuList-item">
+					<a href="">Сотрудничество</a>
+				</li>
+			</ul>
+			<a href="" class="btn btn-camelia">
+				<span class="btn-txt">Вся продукция</span>
+			</a>
+			<div class="popup-catalogWrap">
+				<ul class="popup-catalogList">
+					<li>
+						<a href="" class="popup-catalogList-lnk">
+							<div class="popup-catalogList-imgWrap">
+								<img src="img/temp_5@2.webp" alt="">
+							</div>
+							<div class="popup-catalogList-lnkTxt">
+								фрукты в шоколаде
+							</div>
+						</a>
 					</li>
-					<li class="menuList-item">
-						<a href="">О компании</a>
+					<li>
+						<a href="" class="popup-catalogList-lnk">
+							<div class="popup-catalogList-imgWrap">
+								<img src="img/temp_5@2.webp" alt="">
+							</div>
+							<div class="popup-catalogList-lnkTxt">
+								фрукты в шоколаде
+							</div>
+						</a>
 					</li>
-					<li class="menuList-item">
-						<a href="">Точки продаж</a>
+					<li>
+						<a href="" class="popup-catalogList-lnk">
+							<div class="popup-catalogList-imgWrap">
+								<img src="img/temp_5@2.webp" alt="">
+							</div>
+							<div class="popup-catalogList-lnkTxt">
+								фрукты в шоколаде
+							</div>
+						</a>
 					</li>
-					<li class="menuList-item">
-						<a href="">Сотрудничество</a>
+					<li>
+						<a href="" class="popup-catalogList-lnk">
+							<div class="popup-catalogList-imgWrap">
+								<img src="img/temp_5@2.webp" alt="">
+							</div>
+							<div class="popup-catalogList-lnkTxt">
+								фрукты в шоколаде
+							</div>
+						</a>
+					</li>
+					<li>
+						<a href="" class="popup-catalogList-lnk">
+							<div class="popup-catalogList-imgWrap">
+								<img src="img/temp_5@2.webp" alt="">
+							</div>
+							<div class="popup-catalogList-lnkTxt">
+								фрукты в шоколаде
+							</div>
+						</a>
 					</li>
 				</ul>
-				<a href="" class="btn btn-camelia">
-					<span class="btn-txt">Вся продукция</span>
-				</a>
-				<div class="popup-catalogWrap">
-					<ul class="popup-catalogList">
-						<li>
-							<a href="" class="popup-catalogList-lnk">
-								<div class="popup-catalogList-imgWrap">
-									<img src="img/temp_5@2.webp" alt="">
-								</div>
-								<div class="popup-catalogList-lnkTxt">
-									фрукты в шоколаде
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="" class="popup-catalogList-lnk">
-								<div class="popup-catalogList-imgWrap">
-									<img src="img/temp_5@2.webp" alt="">
-								</div>
-								<div class="popup-catalogList-lnkTxt">
-									фрукты в шоколаде
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="" class="popup-catalogList-lnk">
-								<div class="popup-catalogList-imgWrap">
-									<img src="img/temp_5@2.webp" alt="">
-								</div>
-								<div class="popup-catalogList-lnkTxt">
-									фрукты в шоколаде
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="" class="popup-catalogList-lnk">
-								<div class="popup-catalogList-imgWrap">
-									<img src="img/temp_5@2.webp" alt="">
-								</div>
-								<div class="popup-catalogList-lnkTxt">
-									фрукты в шоколаде
-								</div>
-							</a>
-						</li>
-						<li>
-							<a href="" class="popup-catalogList-lnk">
-								<div class="popup-catalogList-imgWrap">
-									<img src="img/temp_5@2.webp" alt="">
-								</div>
-								<div class="popup-catalogList-lnkTxt">
-									фрукты в шоколаде
-								</div>
-							</a>
-						</li>
-					</ul>
-				</div>
 			</div>
 		</div>
 	</div>
+</div>
+
+<div class="popup popup-cart" aria-hidden="true">
+	<div class="popup-inner" role="dialog" aria-modal="true">
+		<div class="popup-header">
+			<div class="popup-title">
+				Корзина
+			</div>
+			<div class="popup-close">
+				закрыть
+			</div>
+		</div>
+		<div class="popup-body">
+			<div class="popup-catalogWrap">
+				<ul class="cartList cartProducts-list">
+					<li class="cartList-item">
+						<a href="" class="cartList-item-imgWrap">
+							<img src="img/temp_5@2.webp" alt="">
+						</a>
+						<div class="cartList-item-details">
+							<a href="" class="cartList-item-title">
+								фрукты в шоколаде
+							</a>
+							<div class="cartList-item-pricePnl">
+								<div class="quantity-pnl">
+									<div class=" quantity-pnl-less">
+										<svg class="icon icon-shevron">
+											<use xlink:href="img/sprite.svg#shevronL"></use>
+										</svg>	
+									</div>
+									<div class="quantity-pnl-result">
+										<input class="quantity-pnl-result-input" type="text" value="30г" data-step-size="30" data-step-price="100" />
+									</div>
+									<div class="quantity-pnl-more">
+										<svg class="icon icon-shevron">
+											<use xlink:href="img/sprite.svg#shevronL"></use>
+										</svg>	
+									</div>
+								</div>
+								<div class="cartList-item-priceVal">
+									100₽
+								</div>
+								<div class="cartList-item-delete">
+									удалить
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cartList-item">
+						<a href="" class="cartList-item-imgWrap">
+							<img src="img/temp_5@2.webp" alt="">
+						</a>
+						<div class="cartList-item-details">
+							<a href="" class="cartList-item-title">
+								фрукты в шоколаде фрукты в шоколаде фрукты в шоколаде
+							</a>
+							<div class="cartList-item-pricePnl">
+								<div class="quantity-pnl">
+									<div class=" quantity-pnl-less">
+										<svg class="icon icon-shevron">
+											<use xlink:href="img/sprite.svg#shevronL"></use>
+										</svg>	
+									</div>
+									<div class="quantity-pnl-result">
+										<input class="quantity-pnl-result-input" type="text" value="15г" data-step-size="15" data-step-price="10" />
+									</div>
+									<div class="quantity-pnl-more">
+										<svg class="icon icon-shevron">
+											<use xlink:href="img/sprite.svg#shevronL"></use>
+										</svg>	
+									</div>
+								</div>
+								<div class="cartList-item-priceVal">
+									15
+								</div>
+								<div class="cartList-item-delete">
+									удалить
+								</div>
+							</div>
+						</div>
+					</li>
+					<li class="cartList-item">
+						<a href="" class="cartList-item-imgWrap">
+							<img src="img/temp_5@2.webp" alt="">
+						</a>
+						<div class="cartList-item-details">
+							<a href="" class="cartList-item-title">
+								фрукты в шоколаде
+							</a>
+							<div class="cartList-item-pricePnl">
+								<div class="quantity-pnl">
+									<div class=" quantity-pnl-less">
+										<svg class="icon icon-shevron">
+											<use xlink:href="img/sprite.svg#shevronL"></use>
+										</svg>	
+									</div>
+									<div class="quantity-pnl-result">
+										<input class="quantity-pnl-result-input" type="text" value="50г" data-step-size="50" data-step-price="50" />
+									</div>
+									<div class="quantity-pnl-more">
+										<svg class="icon icon-shevron">
+											<use xlink:href="img/sprite.svg#shevronL"></use>
+										</svg>	
+									</div>
+								</div>
+								<div class="cartList-item-priceVal">
+									50
+								</div>
+								<div class="cartList-item-delete">
+									удалить
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+				<div class="cartListAddons-title">
+					МАЛЕНЬКИЕ ВЕЩИ, КОТОРЫЕ СОЧЕТАЮТСЯ С ВАШИМИ БОЛЬШИМИ ДЕЛАМИ
+				</div>
+				<ul class="cartList cartListAddons-list">
+					<li class="cartList-item">
+						<a href="" class="cartList-item-imgWrap">
+							<img src="img/bag_bechoco.webp" alt="">
+						</a>
+						<div class="cartList-item-details">
+							<a href="" class="cartList-item-title">
+								фирменный пакет bechoco
+							</a>
+							<div class="cartList-item-pricePnl">
+								<div class="quantity-pnl">
+									<div class=" quantity-pnl-less">
+										<svg class="icon icon-shevron">
+											<use xlink:href="img/sprite.svg#shevronL"></use>
+										</svg>	
+									</div>
+									<div class="quantity-pnl-result">
+										<input class="quantity-pnl-result-input" type="text" value="1 шт." data-step-size="1" data-step-price="300" />
+									</div>
+									<div class="quantity-pnl-more">
+										<svg class="icon icon-shevron">
+											<use xlink:href="img/sprite.svg#shevronL"></use>
+										</svg>	
+									</div>
+								</div>
+								<div class="cartList-item-priceVal">
+									300₽
+								</div>
+								<div class="cartList-item-delete">
+									удалить
+								</div>
+							</div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</div>
+		<div class="popup-footer">
+			<div class="popup-cart-itog">
+				<div class="popup-cart-itog-title">Итог:</div>
+				<div class="popup-cart-itog-val">0</div>
+			</div>
+			<button class="btn btn-yellow btn-cartOrder active w-100">
+				<span class="btn-txt">Оформить заказ</span>
+			</button>
+		</div>
+		<div class="cartIsEmpty"> <!-- add class active -->
+			<div class="cartIsEmpty-txt">
+				Корзина пуста
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- Modal  end cooperation -->
+<div class="modal fade" id="modalCoop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalCoopLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+	  <div class="modal-content">
+		 <div class="modal-header">
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		 </div>
+		 <div class="modal-body">
+			<img src="img/coop_modal.webp" alt="" width="302" />
+			<div class="modal-body-title">спасибо за заявку!</div>
+			<div class="modal-body-txt"><span class="nameUser">Алексей,</span> ваша заявка принята и в ближайшее время наш сотрудник свяжется с вами для обсуждения условий!</div>
+			<a href="/" class="btn btn-yellow active" data-bs-dismiss="modal"><span class="btn-txt">Понятно</span></a>
+		 </div>		 
+	  </div>
+	</div>
+ </div>
+
+ <!-- Modal end registration -->
+<div class="modal fade" id="modalRegistr" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="modalRegistrLabel" aria-hidden="true">
+	<div class="modal-dialog modal-dialog-centered">
+	  <div class="modal-content">
+		 <div class="modal-header">
+			<button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+		 </div>
+		 <div class="modal-body">
+			<img src="img/registration_modal.webp" alt="" width="320" />
+			<div class="modal-body-title">вы подписаны</div>
+			<div class="modal-body-txt">теперь вы точно не пропустите новинки от bechoco</div>
+			<a href="/" class="btn btn-yellow active" data-bs-dismiss="modal"><span class="btn-txt">Понятно</span></a>
+		 </div>		 
+	  </div>
+	</div>
+ </div>
+	
 </body>
 </html>

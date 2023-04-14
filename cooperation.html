@@ -83,261 +83,86 @@
 	</div>
 </header>
 		
-		<section class="container-fluid section section-catalogCategory">
+		<section class="container-fluid section section-cooperationPage">
 			<div class="container-fluid-inner">
-				<div class="wrapperDefault">
-					<div class="section-headerOne section-catalogCategory-header">
-						<h2 class="section-title">шоколад</h2>
-						<div class="section-catalogCategory-filter">
-							<div class="switcher-wrapper">		
-								<label class="switcher">
-									<input type="checkbox" />
-									<span class="slider">
-										<svg class="icon slider-runner">
-											<use xlink:href="img/sprite.svg#drop"></use>
-										</svg>
-									</span>
-								</label>
-								<div class="switcher-title">
-									Температурный режим
-								</div>
+				<div class="wrapperDefault">					
+					<div class="row tiles tiles-reverse">
+						<div class="col-12 col-md-6 tiles-colTxt">
+							<div class="tiles-colTxt-header">
+								<div class="h2">Сотрудничество</div>
+								<div class="h4">Заинтересованы в партнерстве с bechoco? Есть вопрос или просьба? Заполните форму ниже, и мы найдем подходящего человека, с которым можно связаться.</div>
 							</div>
-							<div class="switcher-wrapper">		
-								<label class="switcher">
-									<input type="checkbox" />
-									<span class="slider">
-										<svg class="icon slider-runner">
-											<use xlink:href="img/sprite.svg#drop"></use>
-										</svg>
-									</span>
-								</label>
-								<div class="switcher-title">
-									без лактозы
+							<form class="form form-cooperation vld-form" data-btnLinked=".btn-getcoop">
+								<div class="form-inner">
+									<div class="form-item">
+										<input class="form-item-input vld-field form-item-username" type="text" placeholder=" " pattern=".{2,}" data-required='true' />
+										<div class="placeholder">
+											Имя
+										</div>
+									</div>
+									<div class="form-item">
+										<input class="form-item-input vld-field" type="text" placeholder=" " pattern=".{2,}" data-required='true' />
+										<div class="placeholder">
+											Фамилия
+										</div>
+									</div>
+									<div class="form-item">
+										<input class="form-item-input vld-field" type="text" placeholder=" " pattern=".{2,}" data-required='true' />
+										<div class="placeholder">
+											Организация
+										</div>
+									</div>
+									<div class="form-item">
+										<input class="form-item-input vld-field" type="email" placeholder=" " pattern="\S+@\S+\.\w+" data-required='true' />
+										<div class="placeholder">
+											Эл. почта
+										</div>
+									</div>
+									<div class="form-item">
+										<input class="form-item-input " type="text" placeholder=" " data-required='true' />
+										<div class="placeholder">
+											Телефон
+										</div>
+									</div>
+									<div class="form-item">
+										<textarea class="form-item-input" placeholder=" "></textarea>
+										<div class="placeholder">
+											Ваше сообщение
+										</div>
+									</div>
+									<div class="form-check">
+										<div class="form-check__inner ">
+												<input type="checkbox" value="1" name="" data-required="true" class="vld-field">
+												<span class="form-check-box">
+												<svg class="icon">
+													<use xlink:href="img/sprite.svg#check"></use>
+												</svg>
+												</span>
+												<div class="form-check-content">
+													<span class="form-check-txt">
+													<a href="" class="dataProcessingLnk">Я согласен с политикой конфиденциальности и <br /> даю согласие на обработку персональных данных</a>
+													</span>
+												</div>
+										</div>
+									</div>
+									<div class="form-item form-item-btn">
+										<button class="btn btn-brown disabled btn-getcoop w-100 mt-3" data-bs-toggle="modal" data-bs-target="#modalCoop"><span class="btn-txt">Отправить</span></button>
+									</div>
 								</div>
-							</div>
-							<div class="switcher-wrapper">		
-								<label class="switcher">
-									<input type="checkbox" />
-									<span class="slider">
-										<svg class="icon slider-runner">
-											<use xlink:href="img/sprite.svg#drop"></use>
-										</svg>
-									</span>
-								</label>
-								<div class="switcher-title">
-									без сахара
-								</div>
-							</div>
+							</form>
 						</div>
-						<div class="section-catalogCategory-filterIco">
-							<svg class="icon">
-								<use xlink:href="img/sprite.svg#filtr"></use>
-							</svg>
-						</div>
-					</div>
-					<div class="cards-wrapper">
-						<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 cards-wrapper-inner">
-							<div class="col">
-								<div class="card">
-									<div class="card-inner">
-										<a href="" class="card-img">
-											<picture class="">
-												<source media="(min-width:768px)" srcset="img/temp_8@2.webp">
-												<source media="(min-width:320px)" srcset="img/temp_8_mob.webp">
-												<img  alt="" src="img/temp_8.webp">
-											</picture>
-										</a>
-										<div class="card-title">
-											<a href="">Апельсиновые цукаты в молочном шоколаде</a>
-										</div>
-										<div class="card-footer">
-											<div class="card-price">
-												500₽ — 30г
-											</div>
-											<div class="card-footer-inner">
-												<div class="quantity-pnl">
-													<div class=" quantity-pnl-less">
-														<svg class="icon icon-shevron">
-															<use xlink:href="img/sprite.svg#shevronL"></use>
-														</svg>	
-													</div>
-													<div class="quantity-pnl-result">
-														30г
-													</div>
-													<div class="quantity-pnl-more">
-														<svg class="icon icon-shevron">
-															<use xlink:href="img/sprite.svg#shevronL"></use>
-														</svg>	
-													</div>
-												</div>
-												<div class="card-cart">
-													<svg class="icon">
-														<use xlink:href="img/sprite.svg#cart"></use>
-													</svg>
-												</div>
-											</div>
-										</div>
-										<div class="card-fav">
-											<svg class="icon">
-												<use xlink:href="img/sprite.svg#heart"></use>
-											</svg>
-										</div>
-										<div class="card-labels">
-											<span class="card-labels-new">NEW</span>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col">
-								<div class="card">
-									<div class="card-inner">
-										<a href="" class="card-img">
-											<picture class="">
-												<source media="(min-width:768px)" srcset="img/temp_5@2.webp">
-												<source media="(min-width:320px)" srcset="img/temp_5_mob.webp">
-												<img  alt="" src="img/temp_5.webp">
-											</picture>
-										</a>
-										<div class="card-title">
-											<a href="">Апельсиновые цукаты в молочном шоколаде</a>
-										</div>
-										<div class="card-footer">
-											<div class="card-price">
-												500₽ — 30г
-											</div>
-											<div class="card-footer-inner">
-												<div class="quantity-pnl">
-													<div class=" quantity-pnl-less">
-														<svg class="icon icon-shevron">
-															<use xlink:href="img/sprite.svg#shevronL"></use>
-														</svg>	
-													</div>
-													<div class="quantity-pnl-result">
-														30г
-													</div>
-													<div class="quantity-pnl-more">
-														<svg class="icon icon-shevron">
-															<use xlink:href="img/sprite.svg#shevronL"></use>
-														</svg>	
-													</div>
-												</div>
-												<div class="card-cart">
-													<svg class="icon">
-														<use xlink:href="img/sprite.svg#cart"></use>
-													</svg>
-												</div>
-											</div>
-										</div>
-										<div class="card-fav active">
-											<svg class="icon">
-												<use xlink:href="img/sprite.svg#heart"></use>
-											</svg>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col">
-								<div class="card">
-									<div class="card-inner">
-										<a href="" class="card-img">
-											<picture class="">
-												<source media="(min-width:768px)" srcset="img/temp_6@2.webp">
-												<source media="(min-width:320px)" srcset="img/temp_6_mob.webp">
-												<img  alt="" src="img/temp_6.webp">
-											</picture>
-										</a>
-										<div class="card-title">
-											<a href="">Апельсиновые цукаты в молочном шоколаде</a>
-										</div>
-										<div class="card-footer">
-											<div class="card-price">
-												500₽ — 30г
-											</div>
-											<div class="card-footer-inner">
-												<div class="quantity-pnl">
-													<div class=" quantity-pnl-less">
-														<svg class="icon icon-shevron">
-															<use xlink:href="img/sprite.svg#shevronL"></use>
-														</svg>	
-													</div>
-													<div class="quantity-pnl-result">
-														30г
-													</div>
-													<div class="quantity-pnl-more">
-														<svg class="icon icon-shevron">
-															<use xlink:href="img/sprite.svg#shevronL"></use>
-														</svg>	
-													</div>
-												</div>
-												<div class="card-cart">
-													<svg class="icon">
-														<use xlink:href="img/sprite.svg#cart"></use>
-													</svg>
-												</div>
-											</div>
-										</div>
-										<div class="card-fav">
-											<svg class="icon">
-												<use xlink:href="img/sprite.svg#heart"></use>
-											</svg>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="col">
-								<div class="card">
-									<div class="card-inner">
-										<a href="" class="card-img">
-											<picture class="">
-												<source media="(min-width:768px)" srcset="img/temp_7@2.webp">
-												<source media="(min-width:320px)" srcset="img/temp_7_mob.webp">
-												<img  alt="" src="img/temp_7.webp">
-											</picture>
-										</a>
-										<div class="card-title">
-											<a href="">Апельсиновые цукаты в молочном шоколаде</a>
-										</div>
-										<div class="card-footer">
-											<div class="card-price">
-												500₽ — 30г
-											</div>
-											<div class="card-footer-inner">
-												<div class="quantity-pnl">
-													<div class=" quantity-pnl-less">
-														<svg class="icon icon-shevron">
-															<use xlink:href="img/sprite.svg#shevronL"></use>
-														</svg>	
-													</div>
-													<div class="quantity-pnl-result">
-														30г
-													</div>
-													<div class="quantity-pnl-more">
-														<svg class="icon icon-shevron">
-															<use xlink:href="img/sprite.svg#shevronL"></use>
-														</svg>	
-													</div>
-												</div>
-												<div class="card-cart">
-													<svg class="icon">
-														<use xlink:href="img/sprite.svg#cart"></use>
-													</svg>
-												</div>
-											</div>
-										</div>
-										<div class="card-fav">
-											<svg class="icon">
-												<use xlink:href="img/sprite.svg#heart"></use>
-											</svg>
-										</div>
-									</div>
-								</div>
-							</div>
+						<div class="col-12 col-md-6  tiles-colImg">
+							<picture class="">
+								<source media="(min-width:960px)" srcset="img/coop_lg@2.webp 1.5x,  img/coop_lg.webp 1x">
+								<source media="(min-width:320px)" srcset="img/coop_mob.webp">
+								<img alt="" src="img/coop_lg.webp">
+							</picture>
 						</div>
 					</div>
 				</div>
 			</div>
 		</section>
-			
+		
 							
 		<footer class="footerMain container-fluid">
 	<div class="container-fluid-inner">

@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<meta name="format-detection" content="telephone=no" />
+	<meta name="description" content="" />
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Inter&family=Oswald&display=swap" rel="stylesheet">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/main.min.css" />
+</head>
+<body>
+	<div class="body-inner">
+
+		
+		
+		<section class="container-fluid section section-payPage">
+			<div class="container-fluid-inner">
+				<div class="wrapperDefault">					
+					<div class="section-headerOne section-payPage-header">
+						<img src="img/logo.svg" class="logo" alt="BeChoco logo" width="225" height="54">				
+						<div class="navigation">
+							<a href="" class="navigation-crumbs">Назад</a>
+							<div class="navigation-steps">Шаг <span class="navigation-steps-current">1</span> из 3</div>
+						</div>						
+					</div>
+
+					<form class="form form-pay vld-form" data-btnlinked=".btn-pay">
+						<fieldset>
+							<legend>Адрес доставки</legend>
+							<div class="row gutters-0">
+								<div class="col-12">
+									<div class="form-radio">
+										<div class="form-radio__inner">
+											<input type="radio" checked name="cartAddressyWay" id="cartAddressWay_1" />
+											<div class="form-radio-box"></div>
+											<div class="form-radio-content">
+												<label for="cartAddressWay_1" class="form-radio-txt">
+													основной
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-radio">
+										<div class="form-radio__inner">
+											<input type="radio" name="cartAddressyWay" id="cartAddressWay_2" />
+											<div class="form-radio-box"></div>
+											<div class="form-radio-content">
+												<label for="cartAddressWay_2" class="form-radio-txt">
+													любимая
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+							<div class="cardAddNewAddressLnk" onclick="cartNewAddress.create(this)">
+								<svg class="icon icon-plus">
+									<use xlink:href="img/sprite.svg#plus"></use>
+								</svg>
+								Добавить адрес
+							</div>					
+						</fieldset>
+						
+						<fieldset id="placeFormForNewAddress"></fieldset>
+
+						<fieldset>
+							<legend>Способ доставки</legend>
+							<div class="row gutters-0">
+								<div class="col-12">
+									<div class="form-radio">
+										<div class="form-radio__inner">
+											<input type="radio" checked name="cartDeliveryWay" id="cartDeliveryWay_1" />
+											<div class="form-radio-box"></div>
+											<div class="form-radio-content">
+												<label for="cartDeliveryWay_1" class="form-radio-txt">
+													доставка по городу
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-radio">
+										<div class="form-radio__inner">
+											<input type="radio" name="cartDeliveryWay" id="cartDeliveryWay_2" />
+											<div class="form-radio-box"></div>
+											<div class="form-radio-content">
+												<label for="cartDeliveryWay_2" class="form-radio-txt">
+													самовывоз
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-radio">
+										<div class="form-radio__inner">
+											<input type="radio" name="cartDeliveryWay" id="cartDeliveryWay_3" />
+											<div class="form-radio-box"></div>
+											<div class="form-radio-content">
+												<label for="cartDeliveryWay_3" class="form-radio-txt">
+													cdeck
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</fieldset>
+						<fieldset>
+							<legend>Получатель</legend>
+							<div class="row gutters-0">
+								<div class="col-12 col-lg-6">
+									<div class="form-item">
+										<input class="form-item-input vld-field" type="text" placeholder=" " pattern=".{2,}" data-required='true' />
+										<div class="placeholder">
+											имя
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-lg">
+									<div class="form-item">
+										<input class="form-item-input vld-field" type="text" placeholder=" " pattern=".{2,}" data-required='true' />
+										<div class="placeholder">
+											фамилия
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-lg-6">
+									<div class="form-item">
+										<input class="form-item-input vld-field" type="text" placeholder=" " pattern=".{2,}" data-required='true' />
+										<div class="placeholder">
+											телефон
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-lg">
+									<div class="form-item">
+										<input class="form-item-input vld-field" type="text" placeholder=" " pattern="\S+@\S+\.\w+" data-required='true' />
+										<div class="placeholder">
+											эл. почта
+										</div>
+									</div>
+								</div>								
+							</div>
+						</fieldset>
+						<fieldset>
+							<legend>Способ оплаты</legend>
+							<div class="row gutters-0">
+								<div class="col-12">
+									<div class="form-radio">
+										<div class="form-radio__inner">
+											<input type="radio" checked name="cartPayWay" id="cartPayWay_1" />
+											<div class="form-radio-box"></div>
+											<div class="form-radio-content">
+												<label for="cartPayWay_1" class="form-radio-txt">
+													картой онлайн
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-radio">
+										<div class="form-radio__inner">
+											<input type="radio" name="cartPayWay" id="cartPayWay_2" />
+											<div class="form-radio-box"></div>
+											<div class="form-radio-content">
+												<label for="cartPayWay_2" class="form-radio-txt">
+													наличными
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12">
+									<div class="form-radio">
+										<div class="form-radio__inner">
+											<input type="radio" name="cartPayWay" id="cartPayWay_3" />
+											<div class="form-radio-box"></div>
+											<div class="form-radio-content">
+												<label for="cartPayWay_3" class="form-radio-txt">
+													картой курьеру
+												</label>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</fieldset>
+						<fieldset>
+							<legend>Комментарий к заказу</legend>
+							<div class="form-item">
+								<textarea class="form-item-input" placeholder=" "></textarea>
+								<div class="placeholder">
+									Ваше сообщение
+								</div>
+							</div>
+						</fieldset>
+						<div class="cartStepFooter">
+							<div class="promocod-wrap">
+								<div class="form-item">
+									<input class="form-item-input" type="text" placeholder=" " />
+									<div class="placeholder">
+										промокод
+									</div>
+								</div>
+								<button class="btn btn-brown"><span class="btn-txt">Применить</span></button>
+							</div>
+							<div class="cartStepFooter-section">
+								<div class="cartStepFooter-row">
+									<div class="cartStepFooter-row-dt">доставка:</div>
+									<div class="cartStepFooter-row-dd c-brown-50">Вычисляется на следующем шаге</div>
+								</div>
+								<div class="cartStepFooter-row cartStepFooter-row-promokod">
+									<div class="cartStepFooter-row-dt">промокод:</div>
+									<div class="cartStepFooter-row-dd c-green">-370₽</div>
+								</div>
+								<div class="cartStepFooter-row cartStepFooter-row-itog">
+									<div class="cartStepFooter-row-dt">итог:</div>
+									<div class="cartStepFooter-row-dd">1370₽</div>
+								</div>
+							</div>
+
+							<div class="form-check">
+								<div class="form-check__inner ">
+									<input type="checkbox" value="1" name="" data-required="true" class="vld-field">
+									<span class="form-check-box">
+									<svg class="icon">
+										<use xlink:href="img/sprite.svg#check"></use>
+									</svg>
+									</span>
+									<div class="form-check-content">
+										<span class="form-check-txt">
+											Я&nbsp;согласен с&nbsp;
+											<a href="" class="termsofuseLnk underline">политикой конфиденциальности</a> и&nbsp;даю согласие 
+											<br class="d-none d-lg-block" /> на 
+											<a href="" class="termsofuseLnk underline">обработку персональных данных</a>
+										</span>
+									</div>
+								</div>
+							</div>
+							<button class="btn btn-yellow active btn-pay w-100 disabled mt-4" onclick="document.querySelector('.cartStepFooter').classList.add('loading')"><span class="btn-txt">перейти к оплате</span></button>
+						</div>
+					</form>
+				</div>
+			</div>
+		</section>
+		
+		<div id="formNewAddress_tpl">
+			<div class="row gutters-0">
+				<div class="col-12">
+					<div class="form-item">
+						<input class="form-item-input vld-field" type="text" placeholder=" " />
+						<div class="placeholder">
+							название (например «дом»)
+						</div>
+					</div>
+				</div>
+				<div class="col-12">
+					<div class="form-item">
+						<input class="form-item-input vld-field" type="text" placeholder=" " />
+						<div class="placeholder">
+							Город
+						</div>
+					</div>
+				</div>
+				<div class="col-12 col-lg">
+					<div class="form-item">
+						<input class="form-item-input vld-field" type="text" placeholder=" " />
+						<div class="placeholder">
+							Улица
+						</div>
+					</div>
+				</div>
+				<div class="col col-lg-auto">
+					<div class="form-item">
+						<input class="form-item-input vld-field" type="text" placeholder=" " />
+						<div class="placeholder">
+							дом
+						</div>
+					</div>
+				</div>
+				<div class="col col-lg-auto">
+					<div class="form-item">
+						<input class="form-item-input vld-field" type="text" placeholder=" " />
+						<div class="placeholder">
+							кв.
+						</div>
+					</div>
+				</div>
+				<div class="col-12 text-end">
+					<button class="btn btn-brown btnDeleteNewAddressForm"><span class="btn-txt">Отменить</span></button>
+					<button class="btn btn-yellow active btnSendNewAddressForm"><span class="btn-txt">Сохранить</span></button>
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	
+	
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/gsap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollTrigger.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.3/ScrollToPlugin.min.js"></script>	
+	
+	<script difer src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	
+	<link href="css/slick.css" rel="stylesheet" />
+	<script type="text/javascript" src="js/slick1.8.1.min.js"></script>
+	
+	<script src="js/main.js"></script>
+</body>
+</html>
